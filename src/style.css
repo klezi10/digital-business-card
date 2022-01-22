@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background-color: #23252c;
+  color: #fff;
+}
+
+.App {
+  max-width: 317px;
+  background-color: #1a1b21;
+  margin: 0 auto;
+}
+
+.Info .avatar {
+  max-width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Info {
+  background-color: #1a1b21;
+}
+
+.Info p {
+  color: #f3bf99;
+}
+
+.Footer {
+  height: 64px;
+  background-color: #161619;
+  border-top: 1px solid #161619;
+  border-radius: 0px 0px 10px 10px;
+}

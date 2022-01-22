@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Interests() {
   return (
-    <div className="interests">
+    <div className="Interests">
       <h3>Interests</h3>
       <p className="interests-text">
         Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
