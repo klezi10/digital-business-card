@@ -24,10 +24,9 @@ To practice React project set up and styling by creating a digital business card
 
 ### Built with
 
-- HTML5
+- React JSX
 - CSS
 - Flexbox
-- React
 
 ### What I learned
 
