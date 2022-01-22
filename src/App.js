@@ -1,5 +1,16 @@
 import React from 'react';
+import Info from './Info';
+import About from './About';
+import Interests from './Interests';
+import Footer from './Footer';
 
 export default function App() {
-  return <h1>Hello from App</h1>;
+  return (
+    <div>
+      <Info />
+      <About />
+      <Interests />
+      <Footer />
+    </div>
+  );
 }
