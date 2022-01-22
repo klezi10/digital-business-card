@@ -60,6 +60,11 @@ body {
   color: #374151;
 }
 
+.Info .email-btn:hover,
+.Info .email-btn:focus {
+  cursor: pointer;
+}
+
 .Info .email-envelope {
   color: black;
   margin-right: 8px;
