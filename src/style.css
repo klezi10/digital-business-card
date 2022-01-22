@@ -8,7 +8,8 @@ body {
 .App {
   max-width: 317px;
   background-color: #1a1b21;
-  margin: 0 auto;
+  margin: 44px auto;
+  border-radius: 10px;
 }
 
 .Info .avatar {
@@ -17,7 +18,6 @@ body {
 }
 
 .Info {
-  background-color: #1a1b21;
   text-align: center;
 }
 
@@ -104,5 +104,15 @@ body {
   height: 64px;
   background-color: #161619;
   border-top: 1px solid #161619;
+  border-bottom: 1px solid #161619;
   border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Footer .twitter-icon,
+.Footer .git-icon {
+  color: #918e9b;
+  font-size: 25px;
+  align-self: center;
 }
