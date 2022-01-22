@@ -6,7 +6,7 @@ export default function Info() {
     <div className="Info">
       <img src={Avatar} alt="avatar" className="avatar" />
       <div className="personal-info">
-        <h1>Kles Anderson</h1>
+        <h1>Klesta</h1>
         <p className="title">Frontend Developer</p>
         <a href="/" target="_blank">
           klesand.website
