@@ -1,12 +1,12 @@
 import React from 'react';
-import Info from './Info';
-import About from './About';
-import Interests from './Interests';
-import Footer from './Footer';
+import Info from './Components/Info';
+import About from './Components/About';
+import Interests from './Components/Interests';
+import Footer from './Components/Footer';
 
 export default function App() {
   return (
-    <div>
+    <div className="container">
       <Info />
       <About />
       <Interests />
