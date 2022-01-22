@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: #23252c;
   color: #fff;
+  font-family: 'Inter', sans-serif;
 }
 
 .App {
@@ -17,10 +18,51 @@ body {
 
 .Info {
   background-color: #1a1b21;
+  text-align: center;
 }
 
-.Info p {
+.Info h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.Info .title {
   color: #f3bf99;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.Info a {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.Info .email-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 116px 9px 90px;
+  margin: 16px auto 32px;
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+}
+
+.Info .email-envelope {
+  color: black;
+  margin-right: 8px;
 }
 
 .Footer {
